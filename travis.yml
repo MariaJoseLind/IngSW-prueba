@@ -1,13 +1,12 @@
 language: node_js
 node-js:
--11.10.0
+-11.6.0
 cache: npm
 
 install: 
-  -npm i
+  -npm ci
 
 script: 
- -npm run test
  -npm run build  
 
 deploy:
