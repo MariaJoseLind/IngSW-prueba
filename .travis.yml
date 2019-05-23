@@ -4,7 +4,7 @@ node-js:
 cache: npm
 
 install: 
-  npm ci
+  npm install ci
 
 script: 
  npm run build  
@@ -12,7 +12,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB-TOKEN
+  github-token: f873dd1a161d8e933a832dbbb30c41bc23b18cd6
   local_dir: build
   on:
     branch: master
