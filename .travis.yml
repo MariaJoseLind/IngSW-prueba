@@ -4,7 +4,7 @@ node-js:
 cache: npm
 
 install: 
-  -npm install
+  -npm i
 
 script: 
  -npm run test
@@ -14,5 +14,6 @@ deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB-TOKEN
+  local_dir: build
   on:
     branch: master
