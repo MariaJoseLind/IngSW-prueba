@@ -7,12 +7,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>HOLA</div>
-      </header>
-      <body>
         <div>
           ojala algun dia ande esto sdfsdff
         </div>
-      </body>
+      </header>
     </div>
   );
 }
