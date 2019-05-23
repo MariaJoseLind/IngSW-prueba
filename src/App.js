@@ -10,7 +10,7 @@ function App() {
       </header>
       <body>
         <div>
-          ojala algun dia ande esto
+          ojala algun dia ande esto sdfsdff
         </div>
       </body>
     </div>
