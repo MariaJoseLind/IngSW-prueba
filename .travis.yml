@@ -1,4 +1,6 @@
 language: node_js
+node-js:
+-11.10.0
 cache: npm
 
 install: 
@@ -11,6 +13,6 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: 993eda8936828de5fc5ef827048312c035b151ca
+  github-token: $GITHUB-TOKEN
   on:
     branch: master
