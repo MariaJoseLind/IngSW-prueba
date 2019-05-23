@@ -5,7 +5,7 @@ install:
   - npm install ci
 
 script: 
- - npm build  
+ - npm deploy  
 
 deploy:
   provider: pages
