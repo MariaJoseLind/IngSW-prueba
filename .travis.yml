@@ -4,10 +4,10 @@ node-js:
 cache: npm
 
 install: 
-  -npm ci
+  npm ci
 
 script: 
- -npm run build  
+ npm run build  
 
 deploy:
   provider: pages
