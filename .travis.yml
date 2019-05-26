@@ -11,6 +11,6 @@ deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
-  local_dir: build
+  keep_history: true
   on:
     branch: master
