@@ -7,10 +7,14 @@ install:
 script: 
   - npm build
 
+after_success:
+  - npm run deploy
+
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep_history: true
+  local_dir: build
   on:
     branch: master
