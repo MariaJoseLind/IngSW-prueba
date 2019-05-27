@@ -7,11 +7,9 @@ install:
 script:
   - npm deploy 
 
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  keep_history: true
-  local_dir: build
-  on:
-    branch: master
+after_success:
+  - git config --global user.name "MariaJoseLind"
+  - git config --global user.email "mariajoselind97@gmail.com"
+  - git remote rm origin
+  - git remote add origin https://MariaJoseLind:${GH_TOKEN}@github.com/IngSW-prueba/
+  - npm run deploy
