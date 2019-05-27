@@ -1,5 +1,4 @@
 language: node_js
-cache: npm
 
 install: 
   - npm install ci
@@ -13,6 +12,5 @@ deploy:
   github-token: $GITHUB_TOKEN
   keep_history: true
   local_dir: build
-  deployment_file: build
   on:
     branch: master

@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <div>HOLA</div>
         <div>
-          ojala algun dia ande esto (PORQUERIA 1)
+          ojala algun dia ande esto (PORQUERIA 2)
         </div>
       </header>
     </div>
