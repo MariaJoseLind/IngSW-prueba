@@ -4,11 +4,8 @@ cache: npm
 install: 
   - npm install ci
 
-script: 
-  - npm build
-
-after_success:
-  - npm run deploy
+script:
+  - npm run deploy 
 
 deploy:
   provider: pages
